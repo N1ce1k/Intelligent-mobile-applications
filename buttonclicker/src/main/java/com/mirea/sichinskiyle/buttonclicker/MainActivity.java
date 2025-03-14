@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
     public void onMyButtonClick(View view)
     {
         flag = false;
-        Toast.makeText(this, "Ещё способ!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Ещё один способ!", Toast.LENGTH_SHORT).show();
         cbYesIAm.setText("ВЫКЛ");
         cbYesIAm.setChecked(flag);
     }
